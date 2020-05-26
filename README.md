@@ -1,10 +1,12 @@
 # userlocation
-Store user locations and predict the user's home/work locations
+Analyse user locations and predict the user's home/work locations
 
 ## Local installation
 1. Clone the repo
-2. Activate virtualenv
-    ```source usrloc/bin/activate```
+2. Install necessary packages:
+   ```
+   pip install -r requirements.txt
+   ```
 3. Run the server
    ```
    cd usrlocation
